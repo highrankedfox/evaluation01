@@ -1,0 +1,17 @@
+@media screen and ( max-width: 1024px ) {
+    img.ImageIndex { width: 100%; }
+    }
+@media screen and ( min-width: 1025px) {
+    img.ImageIndex { width: 100%;}
+    }
+    img.ImageIndex { height: auto; }
+
+body {
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-family: 'Cabin Condensed', sans-serif;
+}
