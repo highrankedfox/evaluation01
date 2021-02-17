@@ -15,28 +15,87 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">SHIBA INU FRANCE</a>
+      <a class="navbar-brand" href="index.html">SHIBA INU FRANCE</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Index</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Index</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Événements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="events.html">Événements</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <img src="Images/indexshiba.jpg".jpg" alt="Shiba Index" class="ImageIndex">
-  <div>
-    Ceci est un texte test.
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" style="background-image: url('Images/carrousel1.jpg')">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">NOTRE MISSION</h2>
+            <p class="carrousel_description">L'association Shiba Inu France a pour but de regrouper les amoureux de la race à travers le pays. Nous organisons dans chaque région des rencontres trimestrielles et des balades groupées dans chaque ville qui contient assez d'adhérents, afin d'échanger et partager nos expériences. Chaque localité a son groupe d'organisateurs qui gère l'organisation de ses rencontres. Nous nous engageons à monitorer celles-ci pour garantir la sécurité des chiens et de leurs maîtres ainsi que l'inclusion de chaque participant. Plus d'informations sur notre page <a href="#">engagements</a>.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('Images/carrousel2.jpg')">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">LE SHIBA INU</h2>
+            <p class="carrousel_description">Petit chien aux allures de renard, le shiba est originaire du Japon. Récemment devenu très populaire notamment grâce à son utilisation dans la culture internet, il est à l'origine un chien de chasse de petit gibier et oiseaux des montagnes. Très agile, il a besoin de se dépenser mais s'adapte parfaitement à la vie en appartement. C'est un compagnon fier et loyal. Souvent perçu comme peu affectueux, le shiba est cependant proche de ses maîtres et très intelligent. Têtu et futé, il séduit grâce à son sourire et sa dignité. Beaucoup décrivent le shiba comme un chien-chat, il est propre et n'aime pas être seul. Découvrez-en <a href="#">plus</a>.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('Images/carrousel3.jpg')">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">L'ASSOCIATION</h2>
+            <p class="carrousel_description">Shiba Inu France est une association à but non lucratif créée en 2013 à Paris par trois passionnés de la race. C'est avec sa popularisation sur internet que Marie S., Hugo M. et Théo G. découvrent le shiba. Vite intrigués, ils tombent rapidement amoureux de ce petit chien au caractère si particulier. Cherchant à se rapprocher d'autres passionnés pour des balades, ils commencent par utiliser les réseaux comme Facebook pour trouver à leurs compagnons des amis, car les shiba tendent à s'entendre entre eux ! Quelques temps plus tard, leur initiative se transforme en association pour regrouper tous ceux qui, comme eux, apprécient d'échanger autour de la race, mais à un niveau national. C'est ainsi que nait Shiba Inu France !</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Précédent</span>
+          </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Suivant</span>
+          </a>
+    </div>
+  </header>
+  <section>
+    <div class="newsletter">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="content">
+                      <h3 class="newsletter_title">RESTONS EN CONTACT !</h2>
+                      <h6>Inscrivez-vous à notre newsletter pour être informé.e de nos prochains événements</h6>
+                      <div class="input-group"> <input type="email" class="form-control" placeholder="Enter email to subscribe"> <span class="input-group-btn"> <button class="btn" type="submit">Subscribe Now</button> </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
+  </section>
+  <hr class="solid">  
+  <section>
+    <div class="socialmedia">
+      <h6>Suivez-nous sur les réseaux !</h6>
+      <a href="#"><img class="socialmedia_icons" src="Images/IconFacebook.png" alt="Icone Facebook"></a>
+      <a href="#"><img class="socialmedia_icons" src="Images/IconInstagram.png" alt="Icone Instagram"></a>
+      <a href="#"><img class="socialmedia_icons" src="Images/IconYoutube.png" alt="Icone Youtube"></a>
+    </div>
+  </section>
+  <footer>
+    <div class="copyright">
+      <span></span>&copy; Copyright 2021, Shiba Inu France</span>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,17 +1,131 @@
-@media screen and ( max-width: 1024px ) {
-    img.ImageIndex { width: 100%; }
-    }
-@media screen and ( min-width: 1025px) {
-    img.ImageIndex { width: 100%;}
-    }
-    img.ImageIndex { height: auto; }
-
 body {
     background-color: white;
     font-family: 'Oxygen', sans-serif;
     font-size: 18px;
 }
 
+hr.solid {
+    border: none;
+    height: 1px;
+    width: 65%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+h6 {
+    font-size: 18px;
+    color: black;
+}
+a {
+    color: rgb(180, 39, 39);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(180, 39, 39);
+}
 .navbar-brand {
     font-family: 'Cabin Condensed', sans-serif;
+}
+.navbar-light .nav-item .nav-link {
+    color: rgb(90, 90, 90);
+}
+.navbar-light .nav-item:hover .nav-link {
+    color: black;
+}
+
+/* Header carrousel */
+
+.carousel-item {
+    height: 95vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}    
+.display-4 {
+    font-family: 'Cabin Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(56, 56, 56);
+}
+@media screen and (max-width: 1024px) {
+    .display-4 { font-size: 40px; }
+}
+.carrousel_description {
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgb(56, 56, 56);
+    font-size: 20px;
+}   
+
+/* Section newsletter */
+
+.newsletter {
+    padding: 30px 0;
+    background: none;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter_title {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    height: 50px;
+    border-color: #707070;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #272727;
+    border-color: none;
+}
+
+.btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #272727;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn:hover {
+    background: rgb(180, 39, 39);
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 2px solid rgb(180, 39, 39);
+}
+
+/* Section medias sociaux */
+
+.socialmedia {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.socialmedia_icons {
+    width: 50px;
+    height: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* Footer copyright */
+
+.copyright {
+    background-color: #7c7c7c;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
 }
