@@ -50,14 +50,15 @@ a:hover {
     text-align: center;
     text-shadow: 1px 1px 1px rgb(56, 56, 56);
 }
-.carrousel_description {
+.carousel_description {
     text-align: justify;
     text-shadow: 1px 1px 1px rgb(56, 56, 56);
     font-size: 20px;
 }   
-@media screen and (max-width: 1024px) {
-    .display-4 {font-size: 40px;}
-    .carrousel_description {font-size: 17px;}
+@media screen and (max-width: 436px) {
+    .carousel-caption {overflow: auto; height:100%;}
+    .display-4 {font-size: 30px; word-break: break-all;}   
+    .carousel_description {font-size: 18px;}
 }
 /* Section newsletter */
 
