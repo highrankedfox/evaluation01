@@ -42,7 +42,6 @@ a:hover {
 .card-deck {
     margin: 20px 10% 20px 10%;
 }
-
 .card {
     background-color: rgb(201, 198, 198);
     margin: auto;
@@ -50,24 +49,22 @@ a:hover {
     height: 24rem;
     overflow: auto;
 }
-
 .card-title {
     text-transform: uppercase;
     font-size: 22px;
 }
-
 .card-text {
     text-align: justify;
     font-size: 19px;
 }
-
 .card-img-top {
     height: 14rem;
     margin-bottom: -10px;
 }
-
 @media screen and (max-width: 1024px) {
     .card-img-top {height: 12rem;}
+    .card-deck {margin: 20px 20px 20px 20px;}
+    .card {width: 18rem;}
 }
 
 /* Footer copyright */
