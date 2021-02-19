@@ -21,6 +21,9 @@ a:hover {
     text-decoration: none;
     color: rgb(180, 39, 39);
 }
+
+/* Navbar */
+
 .navbar-brand {
     font-family: 'Cabin Condensed', sans-serif;
 }
@@ -47,22 +50,21 @@ a:hover {
     text-align: center;
     text-shadow: 1px 1px 1px rgb(56, 56, 56);
 }
-@media screen and (max-width: 1024px) {
-    .display-4 { font-size: 40px; }
-}
 .carrousel_description {
     text-align: justify;
     text-shadow: 1px 1px 1px rgb(56, 56, 56);
     font-size: 20px;
 }   
-
+@media screen and (max-width: 1024px) {
+    .display-4 {font-size: 40px;}
+    .carrousel_description {font-size: 17px;}
+}
 /* Section newsletter */
 
 .newsletter {
     padding: 30px 0;
     background: none;
 }
-
 .newsletter .content {
     max-width: 650px;
     margin: 0 auto;
@@ -70,24 +72,20 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
 .newsletter_title {
     color: black;
     margin-bottom: 10px;
 }
-
 .form-control {
     height: 50px;
     border-color: #707070;
     border-radius: 2px 0px 0px 2px;
 }
-
 .form-control:focus {
     box-shadow: none;
     border: 2px solid #272727;
     border-color: none;
 }
-
 .btn {
     min-height: 50px;
     border-radius: 0;
@@ -95,12 +93,10 @@ a:hover {
     color: #fff;
     font-weight: 300;
 }
-
 .btn:hover {
     background: rgb(180, 39, 39);
     color: #fff;
 }
-
 .form-control:focus {
     color: #495057;
     background-color: #fff;
